@@ -1,56 +1,56 @@
 <p align="center">
   <img
     loading="lazy"
-    src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"
-    alt="Status do projeto: concluido"
+    src="https://img.shields.io/static/v1?label=STATUS&message=CONCLU%C3%8DDO&color=GREEN&style=for-the-badge"
+    alt="Status do projeto: concluído"
   />
 </p>
 
-<h1 align="center">Portfolio Frank Novitch</h1>
+<h1 align="center">Portfólio Frank Novitch</h1>
 
 <p align="center">
-  Portfolio profissional desenvolvido com React, Vite e Tailwind CSS para
-  apresentar perfil, stack tecnica, formacao, experiencia, projetos praticos e
+  Portfólio profissional desenvolvido com React, Vite e Tailwind CSS para
+  apresentar perfil, stack técnica, formação, experiência, projetos práticos e
   canais de contato.
 </p>
 
-## Sumario
+## Sumário
 
 - [Sobre o projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias](#tecnologias)
 - [Como rodar localmente](#como-rodar-localmente)
-- [Scripts disponiveis](#scripts-disponiveis)
+- [Scripts disponíveis](#scripts-disponíveis)
 - [Estrutura de pastas](#estrutura-de-pastas)
 - [Arquitetura](#arquitetura)
-- [Como alterar conteudos](#como-alterar-conteudos)
-- [Padroes de desenvolvimento](#padroes-de-desenvolvimento)
-- [Checklist para alteracoes](#checklist-para-alteracoes)
+- [Como alterar conteúdos](#como-alterar-conteúdos)
+- [Padrões de desenvolvimento](#padrões-de-desenvolvimento)
+- [Checklist para alterações](#checklist-para-alterações)
 - [Deploy](#deploy)
 - [MCP](#mcp)
 - [Documentos complementares](#documentos-complementares)
 
 ## Sobre o projeto
 
-Este projeto e uma landing page de portfolio para apresentar Frank Novitch como
-desenvolvedor backend em formacao. A pagina reune informacoes profissionais,
-tecnologias estudadas, projetos publicados, formacao, experiencia profissional e
+Este projeto é uma landing page de portfólio para apresentar Frank Novitch como
+desenvolvedor backend em formação. A página reúne informações profissionais,
+tecnologias estudadas, projetos publicados, formação, experiência profissional e
 formas de contato.
 
-O foco do projeto e ser simples de manter, rapido para carregar e claro para
-recrutadores, visitantes e outros desenvolvedores. Por isso a aplicacao foi
-construida como uma Single Page Application com Vite, React e Tailwind CSS.
+O foco do projeto é ser simples de manter, rápido para carregar e claro para
+recrutadores, visitantes e outros desenvolvedores. Por isso, a aplicação foi
+construída como uma Single Page Application com Vite, React e Tailwind CSS.
 
 ## Funcionalidades
 
-- Hero section com apresentacao profissional e links principais.
-- Navegacao por secoes internas da pagina.
+- Hero section com apresentação profissional e links principais.
+- Navegação por seções internas da página.
 - Menu responsivo para telas menores.
-- Secao sobre perfil, objetivos e pontos fortes.
-- Stack tecnica organizada por grupos.
-- Cards de projetos com imagem, resumo tecnico, tags, link do GitHub e deploy.
-- Linha do tempo com formacao, cursos e experiencia profissional.
-- Formulario de contato que monta um email usando `mailto`.
+- Seção sobre perfil, objetivos e pontos fortes.
+- Stack técnica organizada por grupos.
+- Cards de projetos com imagem, resumo técnico, tags, link do GitHub e deploy.
+- Linha do tempo com formação, cursos e experiência profissional.
+- Formulário de contato que monta um e-mail usando `mailto`.
 - Layout responsivo para desktop, tablet e mobile.
 - Assets otimizados em `public/`, incluindo imagens `.webp`.
 
@@ -58,31 +58,31 @@ construida como uma Single Page Application com Vite, React e Tailwind CSS.
 
 | Tecnologia | Uso no projeto |
 | --- | --- |
-| React | Criacao da interface e componentes |
+| React | Criação da interface e componentes |
 | Vite | Servidor de desenvolvimento e build |
-| Tailwind CSS | Estilizacao utilitaria e responsividade |
-| JavaScript | Logica da aplicacao |
+| Tailwind CSS | Estilização utilitária e responsividade |
+| JavaScript | Lógica da aplicação |
 | HTML5 | Estrutura base em `index.html` |
-| CSS3 | Estilos globais e animacoes complementares |
+| CSS3 | Estilos globais e animações complementares |
 
 ## Como rodar localmente
 
-### Pre-requisitos
+### Pré-requisitos
 
-Antes de comecar, instale:
+Antes de começar, instale:
 
 - Node.js `>=20.19.0`
 - npm, instalado junto com o Node.js
 - Git, se quiser versionar ou clonar o projeto
 
-Para conferir as versoes:
+Para conferir as versões:
 
 ```bash
 node -v
 npm -v
 ```
 
-### Instalacao
+### Instalação
 
 1. Acesse a pasta do projeto:
 
@@ -90,7 +90,7 @@ npm -v
 cd Portifolio
 ```
 
-2. Instale as dependencias:
+2. Instale as dependências:
 
 ```bash
 npm install
@@ -108,13 +108,13 @@ npm run dev
 http://localhost:5173
 ```
 
-## Scripts disponiveis
+## Scripts disponíveis
 
 | Script | Para que serve |
 | --- | --- |
 | `npm run dev` | Inicia o servidor local do Vite |
-| `npm run build` | Gera a versao final em `dist/` |
-| `npm run preview` | Abre uma previa local do build gerado |
+| `npm run build` | Gera a versão final em `dist/` |
+| `npm run preview` | Abre uma prévia local do build gerado |
 
 Fluxo recomendado antes de publicar:
 
@@ -161,16 +161,16 @@ Portifolio/
 
 - `public/`: imagens, favicons, logo e screenshots dos projetos.
 - `public/projects/`: imagens usadas nos cards de projetos.
-- `src/`: codigo React e estilos globais.
-- `dist/`: pasta criada pelo build. Nao deve ser editada manualmente.
-- `node_modules/`: dependencias instaladas. Nao deve ser editada manualmente.
+- `src/`: código React e estilos globais.
+- `dist/`: pasta criada pelo build. Não deve ser editada manualmente.
+- `node_modules/`: dependências instaladas. Não deve ser editada manualmente.
 
 ## Arquitetura
 
-O projeto tem uma arquitetura simples e direta. A maior parte do conteudo e dos
-componentes esta em `src/App.jsx`.
+O projeto tem uma arquitetura simples e direta. A maior parte do conteúdo e dos
+componentes está em `src/App.jsx`.
 
-### Entrada da aplicacao
+### Entrada da aplicação
 
 `src/main.jsx` inicializa o React e renderiza o componente principal:
 
@@ -187,15 +187,15 @@ createRoot(document.getElementById("root")).render(
 `src/App.jsx` organiza:
 
 - dados do perfil;
-- itens de navegacao;
-- stack tecnica;
+- itens de navegação;
+- stack técnica;
 - projetos;
-- formacao;
-- experiencias;
+- formação;
+- experiências;
 - cards de contato;
-- componentes reutilizaveis.
+- componentes reutilizáveis.
 
-O componente `App` monta a pagina nesta ordem:
+O componente `App` monta a página nesta ordem:
 
 ```text
 BackgroundGlow
@@ -217,16 +217,16 @@ Footer
 
 ### Assets
 
-Imagens usadas pela aplicacao ficam em `public/`. No Vite, tudo dentro de
+Imagens usadas pela aplicação ficam em `public/`. No Vite, tudo dentro de
 `public/` pode ser referenciado a partir da raiz da URL:
 
 ```jsx
 <img src="/logo-fn.png" alt="Frank Novitch" />
 ```
 
-## Como alterar conteudos
+## Como alterar conteúdos
 
-Esta secao e a mais importante para quem esta comecando.
+Esta seção é a mais importante para quem está começando.
 
 ### Alterar dados pessoais
 
@@ -241,8 +241,8 @@ const profile = {
 };
 ```
 
-Use esse objeto sempre que a informacao aparecer em mais de um lugar. Isso evita
-duplicacao e reduz chance de erro.
+Use esse objeto sempre que a informação aparecer em mais de um lugar. Isso evita
+duplicação e reduz a chance de erro.
 
 ### Alterar menu
 
@@ -250,12 +250,12 @@ Edite o array `navItems` em `src/App.jsx`:
 
 ```jsx
 const navItems = [
-  { label: "Inicio", href: "#home" },
+  { label: "Início", href: "#home" },
   { label: "Projetos", href: "#projects" },
 ];
 ```
 
-O `href` precisa apontar para o `id` de alguma secao da pagina.
+O `href` precisa apontar para o `id` de alguma seção da página.
 
 ### Adicionar um projeto
 
@@ -265,8 +265,8 @@ Adicione um novo objeto no array `projects` em `src/App.jsx`:
 {
   title: "Nome do projeto",
   eyebrow: "Resumo curto",
-  description: "Descricao objetiva do projeto.",
-  highlights: ["Ponto tecnico 1", "Ponto tecnico 2"],
+  description: "Descrição objetiva do projeto.",
+  highlights: ["Ponto técnico 1", "Ponto técnico 2"],
   tags: ["Node.js", "React"],
   link: "https://link-do-deploy.com",
   repo: "https://github.com/usuario/repositorio",
@@ -282,30 +282,30 @@ Adicione um novo objeto no array `projects` em `src/App.jsx`:
 
 Depois coloque as imagens em `public/projects/`.
 
-Boas praticas para imagens:
+Boas práticas para imagens:
 
 - use `.webp` para melhor performance;
 - mantenha `.png` como fallback;
-- use nomes simples, sem espacos;
-- preencha `imageWidth` e `imageHeight` com as dimensoes reais;
+- use nomes simples, sem espaços;
+- preencha `imageWidth` e `imageHeight` com as dimensões reais;
 - ajuste `imagePosition` se o print ficar cortado.
 
-### Alterar stack tecnica
+### Alterar stack técnica
 
 Existem dois pontos:
 
 - `stack`: lista usada na faixa animada do hero;
-- `stackGroups`: cards da secao de stack.
+- `stackGroups`: cards da seção de stack.
 
 Se adicionar uma tecnologia importante, avalie atualizar os dois.
 
-### Alterar formacao ou experiencia
+### Alterar formação ou experiência
 
 Edite:
 
-- `education`, para formacao;
+- `education`, para formação;
 - `courses`, para cursos e idiomas;
-- `professionalExperience`, para experiencias profissionais.
+- `professionalExperience`, para experiências profissionais.
 
 Cada item da linha do tempo usa:
 
@@ -313,46 +313,46 @@ Cada item da linha do tempo usa:
 {
   period: "2026",
   role: "Cargo ou curso",
-  place: "Empresa ou instituicao",
-  text: "Descricao curta.",
+  place: "Empresa ou instituição",
+  text: "Descrição curta.",
   tags: ["Tag 1", "Tag 2"],
 }
 ```
 
-### Alterar formulario de contato
+### Alterar formulário de contato
 
-O formulario nao envia dados para servidor. Ele monta um link `mailto` com os
+O formulário não envia dados para servidor. Ele monta um link `mailto` com os
 campos preenchidos.
 
-Se precisar de envio real no futuro, sera necessario adicionar um backend, um
-servico externo de formulario ou uma funcao serverless.
+Se precisar de envio real no futuro, será necessário adicionar um backend, um
+serviço externo de formulário ou uma função serverless.
 
-## Padroes de desenvolvimento
+## Padrões de desenvolvimento
 
-### Nomeacao
+### Nomeação
 
 - Componentes React usam `PascalCase`: `ProjectCard`, `SectionShell`.
-- Variaveis e arrays usam `camelCase`: `navItems`, `contactCards`.
-- Arquivos de imagem usam letras minusculas e hifen quando necessario.
+- Variáveis e arrays usam `camelCase`: `navItems`, `contactCards`.
+- Arquivos de imagem usam letras minúsculas e hífen quando necessário.
 
-### Componentizacao
+### Componentização
 
 Crie um componente novo quando:
 
 - o mesmo bloco visual se repete;
-- o JSX fica dificil de ler;
-- a secao tem responsabilidade clara.
+- o JSX fica difícil de ler;
+- a seção tem responsabilidade clara.
 
 Evite criar componente quando:
 
-- o trecho sera usado apenas uma vez;
-- a abstracao deixa o codigo mais dificil para um junior entender.
+- o trecho será usado apenas uma vez;
+- a abstração deixa o código mais difícil para um júnior entender.
 
-### Estilizacao
+### Estilização
 
 - Prefira classes Tailwind nos componentes.
 - Use tokens definidos em `tailwind.config.js` em vez de cores soltas.
-- Consulte `design-system.md` antes de alterar cores, fontes, espacamentos ou
+- Consulte `design-system.md` antes de alterar cores, fontes, espaçamentos ou
   comportamento visual.
 
 ### Acessibilidade
@@ -360,29 +360,29 @@ Evite criar componente quando:
 Ao alterar a interface, confira:
 
 - imagens decorativas usam `alt=""` e `aria-hidden="true"`;
-- imagens informativas tem `alt` descritivo;
-- botoes possuem `aria-label` quando mostram apenas icone;
+- imagens informativas têm `alt` descritivo;
+- botões possuem `aria-label` quando mostram apenas ícone;
 - links externos usam `target="_blank"` com `rel="noreferrer"`;
-- contraste entre texto e fundo continua legivel;
+- contraste entre texto e fundo continua legível;
 - menu mobile informa `aria-expanded`.
 
-## Checklist para alteracoes
+## Checklist para alterações
 
-Antes de considerar uma alteracao pronta:
+Antes de considerar uma alteração pronta:
 
-- [ ] A pagina roda com `npm run dev`.
+- [ ] A página roda com `npm run dev`.
 - [ ] O build passa com `npm run build`.
 - [ ] O layout foi testado em mobile e desktop.
-- [ ] Links de GitHub, deploy, email e telefone funcionam.
+- [ ] Links de GitHub, deploy, e-mail e telefone funcionam.
 - [ ] Imagens novas existem em `public/` e carregam corretamente.
-- [ ] Textos nao estouram cards ou botoes em telas pequenas.
-- [ ] A documentacao foi atualizada se a mudanca afetou uso, estrutura ou design.
+- [ ] Textos não estouram cards ou botões em telas pequenas.
+- [ ] A documentação foi atualizada se a mudança afetou uso, estrutura ou design.
 
 ## Problemas comuns
 
 ### `npm install` falhou
 
-Verifique a versao do Node:
+Verifique a versão do Node:
 
 ```bash
 node -v
@@ -398,53 +398,52 @@ O Vite pode sugerir outra porta automaticamente. Se quiser escolher uma porta:
 npm run dev -- --port 5174
 ```
 
-### Imagem nao aparece
+### Imagem não aparece
 
 Confira:
 
-- se o arquivo esta dentro de `public/`;
-- se o caminho comeca com `/`;
-- se letras maiusculas e minusculas batem com o nome do arquivo.
+- se o arquivo está dentro de `public/`;
+- se o caminho começa com `/`;
+- se letras maiúsculas e minúsculas batem com o nome do arquivo.
 
-### Alterei o codigo, mas nao mudou no navegador
+### Alterei o código, mas não mudou no navegador
 
 Tente:
 
 - salvar o arquivo novamente;
-- recarregar a pagina;
+- recarregar a página;
 - parar e reiniciar `npm run dev`;
 - limpar cache do navegador se for imagem ou favicon.
 
 ## Deploy
 
-Configuracao recomendada para Vercel, Netlify ou Render Static Site:
+Configuração recomendada para Vercel, Netlify ou Render Static Site:
 
 - Build command: `npm run build`
 - Publish directory: `dist`
 - Node.js: `>=20.19.0`
 
-O build final e gerado em `dist/`.
+O build final é gerado em `dist/`.
 
 ## MCP
 
-Este projeto foi analisado para uso de MCP. A conclusao atual e: **nao precisa
+Este projeto foi analisado para uso de MCP. A conclusão atual é: **não precisa
 criar MCP agora**.
 
 Motivo:
 
-- o projeto e uma pagina estatica de portfolio;
-- nao existe backend proprio;
-- nao existe banco de dados;
-- nao existe integracao dinamica com GitHub, CMS, CRM ou API privada;
-- os dados estao em arrays locais dentro de `src/App.jsx`;
-- o fluxo de manutencao e simples o bastante para documentacao tradicional.
+- o projeto é uma página estática de portfólio;
+- não existe backend próprio;
+- não existe banco de dados;
+- não existe integração dinâmica com GitHub, CMS, CRM ou API privada;
+- os dados estão em arrays locais dentro de `src/App.jsx`;
+- o fluxo de manutenção é simples o bastante para documentação tradicional.
 
-Foi criado o arquivo [MCP.md](./MCP.md) com a analise completa, criterios para
+Foi criado o arquivo [MCP.md](./MCP.md) com a análise completa, critérios para
 decidir no futuro e exemplos de quando MCP faria sentido.
 
 ## Documentos complementares
 
 - [design-system.md](./design-system.md): tokens visuais, componentes, layout,
-  acessibilidade e regras para manter consistencia.
-- [MCP.md](./MCP.md): analise sobre necessidade de MCP neste projeto.
-
+  acessibilidade e regras para manter consistência.
+- [MCP.md](./MCP.md): análise sobre necessidade de MCP neste projeto.
