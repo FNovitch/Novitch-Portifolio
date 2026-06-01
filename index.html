@@ -7,13 +7,79 @@
       name="description"
       content="Portfólio de Frank Novitch, desenvolvedor backend com projetos em Node.js, APIs REST, SQLite, TypeScript e React."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="/hero-laptop.avif"
+      as="image"
+      type="image/avif"
+      fetchpriority="high"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,500..700,50,1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>Frank Novitch | Desenvolvedor Backend</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main
+        style="
+          min-height: 100vh;
+          background: #09090b;
+          color: #f4f4f5;
+          font-family: 'Plus Jakarta Sans', Inter, sans-serif;
+          padding: 6rem 1rem 2rem;
+        "
+      >
+        <section style="max-width: 80rem; margin: 0 auto">
+          <p
+            style="
+              margin: 0 0 1.5rem;
+              color: #a1a1aa;
+              font-size: 0.68rem;
+              font-weight: 700;
+              letter-spacing: 0.32em;
+              text-transform: uppercase;
+            "
+          >
+            Projetos com Node.js, APIs REST e interfaces responsivas
+          </p>
+          <h1
+            style="
+              max-width: 56rem;
+              margin: 0;
+              font-family: Fraunces, Georgia, serif;
+              font-size: clamp(3.25rem, 17vw, 9.5rem);
+              font-weight: 600;
+              line-height: 0.86;
+              letter-spacing: -0.05em;
+            "
+          >
+            Backend
+            <span style="display: block; color: #cbd5e1; font-style: italic">
+              Developer
+            </span>
+          </h1>
+          <p
+            style="
+              max-width: 42rem;
+              margin: 2rem 0 0;
+              color: #a1a1aa;
+              font-size: 1.125rem;
+              line-height: 1.75;
+            "
+          >
+            Frank Novitch, desenvolvedor backend com projetos em Node.js, APIs
+            REST, SQLite, TypeScript e interfaces web responsivas.
+          </p>
+        </section>
+      </main>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

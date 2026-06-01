@@ -442,7 +442,8 @@ function HeroVisual() {
           src="/hero-laptop.avif"
           alt=""
           aria-hidden="true"
-          loading="lazy"
+          loading="eager"
+          fetchPriority="high"
           decoding="async"
           className="absolute inset-0 h-full w-full object-cover opacity-[0.18] grayscale mix-blend-luminosity transition-[opacity,transform] duration-500 ease-out will-change-transform group-hover:scale-[1.02] group-hover:opacity-[0.24]"
         />
