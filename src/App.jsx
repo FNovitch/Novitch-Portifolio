@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const profile = {
   name: "Frank Novitch",
@@ -261,6 +262,7 @@ const contactCards = [
 function App() {
   return (
     <main className="min-h-screen overflow-hidden bg-ink text-cream selection:bg-accent selection:text-ink">
+      <SpeedInsights />
       <BackgroundGlow />
       <Header />
       <Hero />
