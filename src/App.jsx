@@ -95,6 +95,27 @@ const strengths = [
 
 const projects = [
   {
+    title: "NexusPlay",
+    eyebrow: "Marketplace SaaS gamer",
+    description:
+      "Marketplace gamer full stack com catálogo, lojas, carrinho, checkout, pedidos e painéis por perfil, publicado em modo demonstração para navegação ponta a ponta.",
+    highlights: [
+      "Catálogo, carrinho, checkout e pedidos",
+      "Painéis de cliente, vendedor e administrador",
+      "Modo demo com API publicada para portfólio",
+    ],
+    tags: ["React", "TypeScript", "Node.js", "Express", "Prisma", "Tailwind"],
+    link: "https://nvthnexusplay.vercel.app/",
+    repo: "https://github.com/FNovitch/NexusPlay",
+    tone: "from-zinc-700 via-neutral-900 to-slate-950",
+    image: "/projects/nexusplay.png",
+    imageWebp: "/projects/nexusplay.webp",
+    imageWidth: 1386,
+    imageHeight: 848,
+    imagePosition: "50% 40%",
+    imageScale: "scale-100",
+  },
+  {
     title: "DoeJa",
     eyebrow: "Full stack com API e banco",
     description:
@@ -166,6 +187,7 @@ const projects = [
   },
   {
     title: "DogDev",
+    visible: false,
     eyebrow: "Landing page responsiva",
     description:
       "Landing page comercial fictícia com estrutura semântica, menu responsivo e seções pensadas para leitura rápida e conversão.",
@@ -557,9 +579,11 @@ function Projects() {
         </div>
 
         <div className="mt-10 grid gap-6 md:mt-14 lg:mt-16 lg:grid-cols-2 lg:gap-7">
-          {projects.map((project) => (
-            <ProjectCard key={project.title} {...project} />
-          ))}
+          {projects
+            .filter((project) => project.visible !== false)
+            .map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
         </div>
       </SectionShell>
     </section>
